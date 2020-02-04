@@ -1,0 +1,226 @@
+.testnav a {
+font-weight: bold;
+}
+
+.testnav a.active  {
+  text-decoration: underline; 
+}
+
+
+
+section {
+  padding: 150px 0;
+}
+
+header {
+  padding: 156px 0 100px;
+}
+
+.it-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #4582EC;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 3.5rem;
+  margin-right: 0.5rem;
+}
+
+.it-icons a:hover {
+  transform: scale(1.2) rotate(20deg);
+  background-color: skyblue;
+}
+
+.tu-icon a:hover {
+  transform: rotate(5deg);
+}
+
+
+.os-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #4582EC;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 0.5rem;
+}
+
+.os-icons a:hover {
+  transform: scale(1.3) rotate(20deg);
+  background-color: skyblue;
+}
+
+
+.proj-icons li {
+  display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #4582EC;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.0rem;
+  line-height: 2.5rem;
+  margin-right: 1rem;
+}
+
+.proj-icons a:hover {
+  transform: scale(1.3) rotate(20deg);
+  background-color: skyblue;
+}
+
+
+
+
+.tabs .nav-tabs > li, .tabs .nav-pills > li {
+float: none;
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 140px;
+ border: 1px solid #000000;
+  padding: 5px 5px;
+}
+
+.tabs .nav-tabs {
+  text-align: center;
+  border-bottom: 0;
+  margin-bottom: 20px;
+}
+
+.tabs .nav-tabs li:not(:last-child) {
+  margin-right: 10px;
+
+}
+
+.tabs .nav-tabs li a {
+  text-transform: capitalize;
+  font-size: 20px;
+
+  border-radius: 0;
+  transition: all .3s ease;
+  font-weight: 600;
+  color: #4582EC;
+  font-family: "Source Sans Pro", sans-serif;
+ 
+}
+
+.tabs .nav-tabs li a:hover {
+  text-decoration: underline;
+  color: #4582EC;
+ 
+}
+
+.tabs .nav-tabs li a.active  {
+  text-decoration: underline;
+  color: #4582EC;
+ 
+}
+
+
+
+
+.service-box {
+  position: relative;
+  width: 100%;
+}
+
+.service-box .contents {
+  margin-left: 30px;
+}
+
+
+
+.tab-content {
+  position: relative;
+  float: left;
+  width: 100%;
+  z-index: 99;
+}
+
+.service-box {
+  position: relative;
+  width: 100%;
+}
+
+.service-box .section-title h3 {
+  position: relative;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  margin-bottom: 45px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.service-box .section-title h3:before {
+  position: absolute;
+  left: 0px;
+  content: '';
+  bottom: 0px;
+  background: #333333;
+  height: 1px;
+  width: 55px;
+  
+}
+
+
+
+.progress .progress-bar > span {
+  position:relative;
+  height:100%;
+}
+.progress .progress-bar > span > * {
+  position:absolute;
+  top:0;
+  transition: opacity .3s ease-out;
+}
+
+.progress .grade {
+  opacity:0;
+}
+
+.progress:hover .grade {
+  opacity:1;
+}
+
+.progress:hover .percentage {
+  opacity:0;
+}
+
+
+.dev-icons {
+  font-size: 2.5rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #4582EC;
+transform: scale(1.3);
+ 
+}
+
+.contact-icons {
+  color: #4582EC;
+  font-size: 3.5rem;
+}
+
+
+
+.footer {
+  background: #000000;
+  color: #fff;
+}
+
+
+.footer a {
+ color: rgb(238, 238, 238);
+ font-size: medium;
+}
+

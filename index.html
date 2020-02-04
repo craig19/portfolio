@@ -1,0 +1,794 @@
+<!--Craig Whelan x00075734-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Craig Whelan Portfolio</title>
+  <!--Bootstrap/CSS-->
+  <link href="libs/bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet">
+  <!--MainCSS-->
+  <link href="css/main.css" rel="stylesheet">
+  <!--FontAwesomeIcons-->
+  <link href="libs/fontawesome-free-5.11.2-web/css/all.min.css" rel="stylesheet">
+</head>
+
+<body id="ptop" data-spy="scroll" data-target=".navbar">
+
+  <!--Sticky Nav bar with scrollspy-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary testnav fixed-top" id="mainNav">
+    <div class="container">
+      <a href="#ptop" class="navbar-brand js-scroll-trigger">CW Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a> </li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+        </ul>
+        <!--Search bar-->
+        <form class="form-inline ml-auto">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+            style="height: 37px; border-radius: 10px;">
+          <button class="btn btn-light " type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--About Me Section-->
+  <section id="about" >
+    <div class="container">
+      <div class="row d-flex no-gutters">
+        <div class="col-md-6  disabled">
+          <div class="">
+            <img class=" " src="images/about3.jpg" alt="about" style="float:right; border:2px solid #000000">
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 py-5 pl-md-5">
+          <div>
+            <h1>Craig
+              <span class="text-primary">Whelan</span>
+            </h1>
+            <br>
+            <div class="subheading mb-5">
+              <p>
+                <a href="#">
+                  <i style="color: rgba(0, 0, 0, 0.801);" class="fas fa-phone-alt"> 0851491358 &nbsp &nbsp </i>
+                </a>
+                <a href="mailto:name@email.com">
+                  <i style="color: rgba(0, 0, 0, 0.801);" class="fas fa-envelope"> craigwhelan19@gmail.com</i>
+                </a>
+
+              </p>
+              <button type="btn btn-sm" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Send Message
+              </button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Send Message</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="#" class="bg-light p-4 p-md-5 contact-form">
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                          <textarea name="" id="" cols="30" rows="7" class="form-control"
+                            placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group">
+                          <input type="submit" value="Send Message" data-dismiss="modal"
+                            class="btn btn-primary py-3 px-5">
+                        </div>
+                      </form>
+
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            
+            <p class="lead mb-5" style="color:rgba(0, 0, 0, 0.801); text-align: justify;"> Fourth year Computer Science student in TU Dublin, used to adapting to high pressure and tight deadlines, 
+              familiar with agile methodologies, and fast at picking up new programming languages, frameworks and technologies. Proficient in a broad range of programming languages, frameworks and 
+              project experience with CI/CD automated testing & AWS cloud architectures. </p>
+            <div class="it-icons">
+              <a target="_blank" href="https://www.linkedin.com/in/craig-whelan-515704196/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a target="_blank" href="https://github.com/craig19">
+                <i class="fab fa-github"></i>
+              </a>
+              <a target="_blank" href="https://stackoverflow.com/users/12231949/darego101">
+                <i class="fab fa-stack-overflow"></i>
+              </a>
+              <a href="CVCraigWhelan.docx">
+                <i class="fas fa-file-download"></i> <span>CV</span>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--skills section-->
+  <section id="skills" style="background-color:whitesmoke;">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2 style="text-align: center;"> Technical Skills </h2>
+          <br>
+          <br>
+          <br>
+          <div class="row">
+            <div class="col-md-6 os-icons">
+              <div class="col-md-12">
+                <h4 style="color:slategrey"> Operating Systems </h4>
+                <br>
+                <p>Proficient in system administration with the most popular Operating Systems: Windows/Windows Server & Linux. Capable of monitoring systems using Bash Scripts
+                </p>
+                <br>
+
+
+                <a href="#skills">
+                  <i class="fab fa-windows"></i>
+                </a>
+                <a href="#skills">
+                  <i class="fab fa-linux"></i>
+                </a>
+                <a href="#skills">
+                  <i class="fab fa-android"></i>
+                </a>
+                <a href="#skills">
+                  <i class="fab fa-apple"></i>
+                </a>
+
+
+
+              </div>
+            </div>
+
+
+            <div class="col-md-6 os-icons">
+              <div class="col-md-12">
+
+                <h4 style="color:slategrey"> Programming Languages </h4>
+                <br>
+                <p>Confident developer in the following languages: C#, Java, C++, Rust</p>
+                <br>
+                <br>
+                <a href="#skills">
+                  <i class="fab fa-java"></i>
+                </a>
+                <a href="#skills">
+                  <i class="fas fa-copyright">++</i>
+                </a>
+                <a href="#skills">
+                  <i class="fas fa-registered"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row mt-5">
+            <div class="col-md-6 os-icons">
+              <div class="col-md-12">
+
+                <h4 style="color:slategrey"> Web Development </h4>
+                <br>
+                <p>Capable of building backend RESTful web services and full-stack Web Applications in the ASP.NET ecosystem; MVC 5/6 & Razor Pages, Web APIs</p>
+                <br>
+                <br>
+                <a href="#skills">
+                  <i class="fab fa-bootstrap"></i>
+                </a>
+                <a t href="#skills">
+                  <i class="fab fa-node"></i>
+                </a>
+                <a href="#skills">
+                  <i class="fab fa-react"></i>
+                </a>
+                <a href="#skills">
+                  <i class="fab fa-apple"></i>
+                </a>
+              </div>
+              <br>
+
+            </div>
+
+            <div class="col-md-6 os-icons">
+              <div class="col-md-12">
+                <h4 style="color:slategrey"> Cloud Platforms </h4>
+                <br>
+                <p> Currently studying for the official AWS Solutions Architect exam. Capable of designing and building cloud architectures in AWS, Azure and Google Cloud.
+                   Also familiar with various AI/ML APIs suchs as AWS Textract, Azures Read API and Googles Vision API </p>
+                <br>
+                <a href="#skills">
+                  <i class="fab fa-aws"></i>
+                </a>
+                <a href="#skills">
+                  <i class="fab fa-google"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+  </section>
+
+
+
+  <!--Projects Section-->
+  <section id="projects">
+    <div class="container">
+
+      <h2 style="text-align: center;"> Projects </h2>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h4 style="color:slategrey; text-align: center;"> Fourth Year Major Project </h4>
+      <br>
+      <br>
+
+      <!--carousel-->
+      <div id="demo" class="carousel slide" data-ride="carousel" style="width: 100%;">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators" style="background-color: grey;">
+          <li data-target="#demo" data-slide-to="0"></li>
+          <li data-target="#demo" data-slide-to="1" class="active"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+          <li data-target="#demo" data-slide-to="4"></li>
+          <li data-target="#demo" data-slide-to="5"></li>
+          <li data-target="#demo" data-slide-to="6"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/arcd.PNG" alt="Los Angeles">
+          </div>
+          <div class="carousel-item">
+            <img src="images/p1.PNG" alt="Chicago">
+          </div>
+          <div class="carousel-item">
+            <img src="images/p2.PNG" alt="New York">
+          </div>
+          <div class="carousel-item">
+            <img src="images/p3.PNG" alt="New York">
+          </div>
+          <div class="carousel-item">
+            <img src="images/p4.PNG" alt="New York">
+          </div>
+          <div class="carousel-item">
+            <img src="images/p5.PNG" alt="New York">
+          </div>
+          <div class="carousel-item">
+            <img src="images/pixel2.PNG" alt="New York">
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" style="background-color: grey;" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" style="background-color: grey;" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+
+
+      <div class="row d-flex mx-auto">
+        <div class="col-md-12">
+
+
+
+
+
+          <!--4th year proj content-->
+          <div class="row mt-5">
+            <div class="col-md-12">
+              <div class="col-md-12">
+
+                <h5 style="color:slategrey; text-align: center;"> Project Overview </h4>
+                  <br>
+                  <p>For my fourth year college project I am working on a live project with <a target="_blank"
+                      href="http://csinc.ie/">CSinc.ie</a>, which is a team made up of lecturers from the TU Dublin,
+                    Tallaght campus.
+                    This team of lecturers takes bookings from schools and organisations all over Ireland, providing
+                    computer science outreach camps to students and personal development camps to teachers. The team
+                    also
+                    carries out longitudinal surveys, which
+                    aim to help develop the outreach camps moving forward and in turn, allow lecturers to reach and
+                    inform
+                    as many students as possible of what computer science really is; addressing sterotypes
+                    and incorrect perceptions of the subject.</p>
+                  <p>My role is to design, develop, implement and test a full-stack booking system for the organisation,
+                    which
+                    can handle thousands of bookings. The system will allow lecturers to manage
+                    bookings and available camp dates. The system will also facilitate the upload of thousands of
+                    scanned
+                    hand-written surveys: lecturers collect student and teacher surveys at every school
+                    camp which need to be entered into a database for research and data analysis purposes. Lecturers
+                    will
+                    be able to upload a .PDF for each school containing all of the schools surveys.
+                    The system will then scan over every survey in the .PDF and use two extraction methods to extract
+                    the
+                    data for entry into the database.
+                  </p>
+                  <p>The first data extraction method involves obtaining and parsing survey answers which are
+                    hand-written. I have leveraged the Azure Optical Character Recognition Read API to parse
+                    hand-written text into ASCII characters which will then be available for use in the system. The
+                    second
+                    extraction method involves obtaining hand-marked checkbox data. I have came up with
+                    solid logic and algorithms to scan every checkbox pixel by pixel, measuring the pixel density of
+                    each
+                    checkbox against an un-marked base pixel density value, to determine if the checkbox
+                    has been marked or not.</p>
+                  <p>
+                    This project has provided me with valuable experience in the following technologies: C#, ASP.NET
+                    MVC,
+                    Bootstrap, Azure DevOps CI/CD, automated testing, AWS Elastic Beanstalk & RDS, Azure Cognitive
+                    Services API, Google Vision OCR API, AWS Textract OCR API (I tested each of these 3 OCR APIs for
+                    accuracy with hand-written survey answers; Azures Read API provided the highest level of accuracy).
+                  </p>
+                  <div class="">
+
+
+                    <ul class="list-inline dev-icons" style="text-align: center;">
+                      <li class="list-inline-item">
+                        <i class="fab fa-windows"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fas fa-copyright">#</i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fab fa-bootstrap"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fab fa-aws"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fas fa-database"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fab fa-google"></i>
+                      </li>
+
+                    </ul>
+                  </div>
+
+                  <br>
+                  <br>
+              </div>
+
+              <!--second year proj dropdown-->
+              <div class="col-md-12">
+                <div class="panel-group" id="accordion">
+                  <div class="panel panel-default show">
+                    <a class="card" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                      <div class="card-body" style="text-align: center;">
+                        <h4> Second Year Project </h4>
+                      </div>
+                    </a>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                      <div class="panel-body">
+
+                        <br>
+                        <h4 style="color:slategrey; text-align: center;"> Project Overview </h4>
+                        <br>
+                        <br>
+                        <p>For my second year project I designed, developed and implemeneted a Help-desk Support
+                          Ticketing System from conception to execution. This was a solo project where users could
+                          create an
+                          account & submit as many support tickets as necessary. The tickets are then submitted to the
+                          right person or department for resolution. Other features included, ticket tracking, ticket
+                          priority
+                          numbering, user/admin dashboard views & user account management(edit general details,
+                          password, security question/answer)
+                        </p>
+                        <p>
+                          This project provided me with valuable experierence in Java using the Eclipse IDE, Swing GUI
+                          toolkit, Java Database Connectivity(JDBC) API, SQL Developer & Oracle Database Express.
+                        </p>
+                        <div class="">
+
+
+                          <ul class="list-inline dev-icons" style="text-align: center;">
+                            <li class="list-inline-item">
+                              <i class="fab fa-windows"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fab fa-java"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fas fa-database"></i>
+                            </li>
+
+                          </ul>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <br>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Personal Section-->
+  <section id="interests" style="background-color:whitesmoke;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 style="text-align: center;"> Interests & Achievements </h2>
+          <br>
+          <br>
+          <br>
+
+          <h4 style="color:slategrey; text-align: center;"> Professional </h4>
+          <br>
+          <li style="list-style-type:none; text-align: center">
+            <i class="fa-li fab fa-aws" style="color: #4582EC; font-size: 2.0rem; "></i>
+            <p>Currently attending Amazon AWS evening classes at the college during my spare time. Aiming to complete AWS Solutions Architect Associate exam in June 2020.</p>
+          </li>
+
+
+          <br>
+          <br>
+
+
+          <h4 style="color:slategrey; text-align: center;"> Posts of Responibility </h4>
+          <br>
+          <li style="list-style-type:none; text-align: center">
+            <i class="fa-li fas fa-hand-holding-heart" style="color: #4582EC; font-size: 1.7rem; "></i>
+            <p>Volunteered with the Peter McVerry Trust. Involved in fundraising; helping to organize monthly events &
+              participating in the events to raise money for the charity.</p>
+          </li>
+
+
+          <br>
+          <br>
+
+
+          <h4 style="color:slategrey; text-align: center;"> Sporting </h4>
+          <br>
+          <li style="list-style-type:none; text-align: center">
+            <i class="fa-li fas fa-dumbbell" style="color: #4582EC; font-size: 1.6rem; "></i>
+            <p>Certified fitness instructor, accredited by the EHFA. Help family and friends achieve personal health and
+              fitness related goals. Also host weekly gym circuit training class.</p>
+          </li>
+
+          </p>
+          <br>
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Contact me Section-->
+  <section id="contact">
+    <div class="container">
+      <h2 style="text-align: center;"> Contact Me </h2>
+      <br>
+      <br>
+      <br>
+
+      <div class="row ">
+
+        <div class="col-lg-4 ">
+          <div class="text-center p-4 shadow">
+            <div class="contact-icons">
+              <i class="fas fa-home"></i>
+              <br>
+            </div>
+            <div>
+              <br>
+              <h4>Address</h4>
+              <br>
+              <p>Emmet House, Emmet Court, St. Vincent St West, Inchicore, Dublin 8</p>
+            </div>
+            <br>
+          </div>
+          <br>
+        </div>
+        <br>
+
+        <div class="col-lg-4 ">
+          <div class="text-center p-4 shadow">
+            <div class="contact-icons">
+              <i class="fas fa-phone-square-alt"></i>
+              <br>
+            </div>
+            <div>
+              <br>
+              <h4>Contact Number</h4>
+              <br>
+              <p>0851491358</p>
+              <br>
+
+            </div>
+            <br>
+          </div>
+          <br>
+        </div>
+        <br>
+
+        <div class="col-lg-4 ">
+          <div class="text-center p-4 shadow">
+            <div class="contact-icons">
+              <i class="fas fa-envelope"></i>
+              <br>
+            </div>
+            <div>
+              <br>
+              <h4>Email</h4>
+              <br>
+              <p>
+                <a href="mailto:name@email.com">
+                  craigwhelan19@gmail.com
+                </a>
+              </p>
+              <br>
+
+            </div>
+            <br>
+          </div>
+          <br>
+        </div>
+        <br>
+
+      </div>
+
+
+      <div class="row d-flex">
+
+
+        <div class="col-md-5" style="float: none; margin: 0 auto; margin-top: 50px;">
+          <form action="#" class="bg-light p-4 p-md-5 contact-form">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+            </div>
+          </form>
+        </div>
+
+
+
+        <div class="col-md-7 d-felx">
+          <div id="map" style="height: 550px; width: 100%; margin-top:50px; "></div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="container" style="padding-top: 100px; padding-bottom: 100px;">
+
+
+      <div class="row justify-content-center" style="padding-left: 50px;">
+
+
+        <div class="col-lg-4" style="font-size: medium; padding-right: 60px;">
+          <div>
+            <br>
+            <br>
+            <h2>About</h2>
+            <br>
+            <br>
+            <p style="color:rgb(238, 238, 238);">Fourth year computer science student, seeking internship or graduate
+              position in the full-stack or
+              server side C# .NET space. Project experience with CI/CD automated testing & AWS cloud architectures.</p>
+            <div class="os-icons">
+              <a target="_blank" href="https://www.linkedin.com/in/craig-whelan-515704196/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a target="_blank" href="https://github.com/craig19">
+                <i class="fab fa-github"></i>
+              </a>
+              <a target="_blank" href="https://stackoverflow.com/users/12231949/darego101">
+                <i class="fab fa-stack-overflow"></i>
+              </a>
+
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-4" style="padding-right: 40px;">
+          <div>
+            <br>
+            <br>
+            <h2>Questions?</h2>
+            <br>
+
+            <br>
+            <div style="color:rgb(238, 238, 238);">
+              <ul style="list-style-type:none; margin: 0; padding: 0;">
+                <li> <a href="#contact">
+                    <i class="fas fa-home"> &nbsp Emmet House, Emmet Court,
+                      Inchicore </i>
+                  </a>
+                </li>
+                <br>
+                <li> <a href="#contact">
+                    <i class="fas fa-phone-alt"> &nbsp 0851491358 </i>
+                  </a>
+                </li>
+                <br>
+                <li> <a href="mailto:name@email.com">
+                    <i class="fas fa-envelope"> &nbsp craigwhelan19@gmail.com </i>
+                  </a>
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div>
+            <br>
+            <br>
+            <h2>Links</h2>
+            <br>
+            <br>
+
+            <ul style="list-style-type:none; margin: 0; padding: 0; color:rgb(238, 238, 238);">
+
+
+              <li> <a href="#about">
+                  <i class="fas fa-arrow-right"> &nbsp About </i>
+                </a>
+              </li>
+              <br>
+              <li> <a href="#projects">
+                  <i class="fas fa-arrow-right"> &nbsp Projects </i>
+                </a>
+              </li>
+              <br>
+              <li> <a href="#interests">
+                  <i class="fas fa-arrow-right"> &nbsp Interests </i>
+                </a>
+              </li>
+              <br>
+              <li> <a href="#contact">
+                  <i class="fas fa-arrow-right"> &nbsp Contact </i>
+                </a>
+              </li>
+
+
+            </ul>
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+  </footer>
+
+
+
+
+  <!--Bootstrap JavaScript-->
+  <script src="libs/jquery/jquery.min.js"></script>
+  <script src="libs/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--JS-->
+  <script src="js/smart-nav.js"></script>
+
+
+
+
+
+  <!--GoogleMaps API-->
+  <script>
+    function initMap() {
+      var location = { lat: 53.290730, lng: -6.363468 };
+      var map = new google.maps.Map(document.getElementById("map"),
+        {
+          zoom: 14,
+          center: location
+        });
+      var marker = new google.maps.Marker({ position: location, map: map })
+    }
+  </script>
+
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqwEIloQSCGRc5YuqOSiGdXhkBobC0bBk&callback=initMap">
+
+    </script>
+
+  <script>
+
+    $(function () {
+      $('#exampleModal').modal('hidden');
+    });
+
+  </script>
+
+</body>
+
+</html>
